@@ -10,4 +10,5 @@ Created a Gantt Chart for the project. Initialized a Class Diagram for the proje
 
 
 20:33 24/07/2021
-Started the project in Godot. Made a Player Node and the Animations for this.
+Started the project in Godot. Made a Player Node and the Animations for this. Added a basic movement system for the Hero.
+
