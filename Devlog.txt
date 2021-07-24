@@ -1,0 +1,13 @@
+.LOG
+
+
+21:24 13/07/2021
+Gathered Assets for Slimes and the Hero.
+
+
+20:32 23/07/2021
+Created a Gantt Chart for the project. Initialized a Class Diagram for the project.
+
+
+20:33 24/07/2021
+Started the project in Godot. Made a Player Node and the Animations for this.
