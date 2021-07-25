@@ -6,7 +6,7 @@
 [node name="Main" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 176.843, 134.08 )
+position = Vector2( 83.5035, 424.189 )
 
 [node name="Tilemaps" parent="." instance=ExtResource( 2 )]
 

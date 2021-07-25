@@ -20,10 +20,15 @@ public class Player : KinematicBody2D
 		
 		var velocity = new Vector2();
 		
-		velocity.x = Input.GetActionStrength("ui_right")-Input.GetActionStrength("ui_left");
-		velocity.y = Input.GetActionStrength("ui_down")-Input.GetActionStrength("ui_up");
+		velocity.x = (Input.GetActionStrength("ui_right")-Input.GetActionStrength("ui_left"))*Speed;
+		velocity.y = 80;
 		
-		MoveAndSlide(velocity.Normalized()*Speed);
+		if (Input.IsActionJustPressed("ui_up"))
+		{
+			velocity.y = -16000;
+		}
+		
+		MoveAndSlide(velocity);
 		
 	}
 
